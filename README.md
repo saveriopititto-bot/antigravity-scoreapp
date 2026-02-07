@@ -4,6 +4,8 @@ Web app avanzata per l'analisi delle performance di corsa, basata sull'algoritmo
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://scorerun.streamlit.app/)
 
+> 📝 **Session Updates:** Vedi [`CHANGELOG_SESSION.md`](CHANGELOG_SESSION.md) per gli ultimi fix e miglioramenti
+
 ## 🚀 Funzionalità
 
 - **Analisi OAuth Strava**: Importazione sicura delle attività.
@@ -29,3 +31,7 @@ Il progetto segue un'architettura pulita:
 - `services/`: Gestione API esterne e caching.
 - `ui/`: Componenti di visualizzazione e grafici.
 - `app.py`: Controller principale dell'applicazione.
+
+## 🤖 Agent Task Reporting
+**Regola operativa:** Ogni task completata da un agente viene documentata in [`CHANGELOG_SESSION.md`](CHANGELOG_SESSION.md) con report dettagliato consultabile.
+
